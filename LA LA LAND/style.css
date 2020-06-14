@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oxygen&display=swap');
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  /* color: white; */
+}
+
+body{
+  height: 100vh;
+  background: url(la_la_land_movie_4k-1920x1080_1.png) no-repeat center center/cover;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.links{
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-around;
+  width: 39%;
+  
+}
+
+.links li{
+  list-style: none;
+  
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+
+main h1{
+  /* position: absolute; */
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top:80px;
+  margin-left: 489px;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.space{
+  padding: 70px;
+}
+
+main img{
+  margin:auto; 
+  margin-top: 25px;
+  margin-left: 250px;
+  width:700px;
+}
+
+
+.info {
+  position: relative;
+  color: white;
+  font-size: 10px;
+  left: 255px;
+  top: 20px;
+  width: 200px;
+}
+.winner{
+  /* display: block; */
+  position: absolute;
+  top: 39px;
+  left: 30px;
+  font-size: 20px;
+}
+
+.big{
+  position: relative;
+  top: 20px;
+  left: 4px;
+  font-size: 40px;
+  
+}
+
+.underline{
+  border-bottom:1.2px solid; 
+  width:140px;
+  padding-bottom:15px;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  margin-left: 250px;
+}
+
+.pre{
+  flex:0 0 179px;
+}
+
+.content2{
+  display: flex;
+  padding-top: 19px;
+  margin-left: 250px;
+}
+.pre2{
+  flex: 0 0  179px;
+}
+
+.content, .content2,.awards{
+  font-size: 11px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.awards h3{
+  padding-bottom: 22px;
+  margin-left: 5px;
+  width: 200px;
+}
+.awards{
+  position: relative;
+  bottom:84px;
+  right: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+ .idk{
+   margin-top: 100px;
+ }
+ 
+ .sideline{
+  /* display: block;
+  border-left: 1.2px solid #ccc;
+  margin: 0 10px;
+  height: 100px; */
+  height: 29px;
+  border-left: 1.2px solid rgb(255, 253, 253);
+  position: relative;
+  /* left: 50px; */
+}
+
+/* vid page */
+
+.trailer{
+  background: url(last-one.jpg) no-repeat center center/cover;
+  width:100%;
+  height: 100vh;
+}
+
+.trailer img{
+    /* margin:auto;  */
+    padding-top: 50px;
+    padding-left: 320px;
+    width:530px;
+}
+
+video{
+  margin:auto; 
+  margin-top: 10px;
+  margin-left: 320px;
+}
+
+.trailer h1{
+  margin-top: 10px;
+  margin-left: 320px;
+  width: 400px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: white;
+}
+.qu{
+  position: relative;
+  top: 29px;
+  right: 123px;
+}
+
+.button{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 871px;
+}
+.myButton {
+  position: relative;
+  background-color:transparent;
+  border-radius:28px;
+  border:1px solid #fafffb;
+  display:block;
+  cursor:pointer;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: white;
+  padding:10px 20px;
+  margin-top: 15px;
+  /* text-decoration:none; */
+}
+.myButton:hover {
+  background-color:white;
+  color: black;
+}
+
+/* page 3 */
+.slider{
+  background: url(/rv4.png) no-repeat center center/cover;
+  width:100%;
+  height: 100vh;
+}
+
+
+.slider h1{
+  /* padding-left: 200px;
+  padding-top: 30px; */
+
+  font-size: 16px;
+  /* width: 20px; */
+  letter-spacing: 3px;
+  color: white;
+}
+.center{
+  /* display: inline-block; */
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  font-size: 30px;
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-general {
+  padding: 75px 0;
+  margin-left: 220px;
+  width: 800px;
+}
+
+.container-general .gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.container-general .gallery-wrap .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: none; */
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.175);
+
+}
+
+.container-general .gallery-wrap .item:hover {
+  flex: 7;
+  transform: scale(1.1);
+  border-radius: 14px;
+}
+
+
+.gallery-wrap .item:hover {
+  transform: translate3d(0, 0, 100px);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.gallery-wrap .item:first-of-type {
+  background-image: url("  https://assets.vogue.com/photos/58a5df3e5b123607a4e38cd6/16:9/w_1280,c_limit/00-social-still-lala-land-problem.jpg");
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.gallery-wrap .item:nth-of-type(2) {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BYjMwYWUzZjEtYTFmMS00YWRmLWJhYmEtMmYwMWE5YTJiOGQ3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzI3NjY2ODc@._V1_.jpg");
+}
+
+.gallery-wrap .item:nth-of-type(3) {
+  background-image: url("https://i.pinimg.com/originals/e2/75/c7/e275c7081e1b3d0590fa4f54eb239a5b.jpg ");
+}
+
+.gallery-wrap .item:nth-of-type(4) {
+  background-image: url("https://www.icgmagazine.com/web/wp-content/uploads/2016/12/lalaland_filmscan5.jpg");
+}
+
+.gallery-wrap .item:last-of-type {
+  background-image: url("https://i.pinimg.com/474x/14/38/88/143888a433909449f940d9e44a526e46.jpg");
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+
+/* page4 */
+.cast{
+  background:linear-gradient( rgba(14, 14, 14, 0.4), rgba(14, 14, 14, 0.3)),url(/4.png) no-repeat center center/cover;
+  width:100%;
+  height: 100vh;
+}
+
+.actors{
+  display: flex;
+  flex-direction: row;
+  padding-left: 230px;
+  padding-top: 80px;
+  font-size: 20px;
+  letter-spacing: 4px; 
+}
+
+.titles{
+  flex:0 0 330px;
+}
+
+.blue{
+  color: aqua;
+  width: 80px;
+  padding-bottom:5px;
+
+
+}
+.pink{
+  color:rgb(245, 137, 218);
+  width: 80px;
+  padding-bottom:5px;
+}
+
+.c1{
+  color:aqua;
+}
+
+.c2{
+  color: rgb(245, 137, 218);
+}
+.names{
+  font-size: 13px;
+  padding-top: 100px;
+}
+
+.names1{
+  font-size: 13px;
+  padding-top: 140px;
+  
+}
+/* space between names  */
+.try{
+  padding-bottom: 20px;
+}
+
+/* last page */
+.music{
+  background: url(https://wallpaperaccess.com/full/1092582.jpg) no-repeat center center/cover;
+  width:100%;
+  height: 100vh;
+}
+
+.land{
+  margin:auto; 
+  margin-top: 40px;
+  margin-left: 340px;
+  width:530px;
+}
+
+.records{
+  margin-left: 200px;
+  margin-top: 60px;
+  display: flex;
+}
+.vinyl{
+  padding-right: 15px;
+  width: 280px;
+  height: 241px;
+}
+
+.Sountrack{
+  color: white;
+  font-size: 9px;
+  letter-spacing: 4px; 
+  display: flex;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+/* space  */
+
+.spa33{
+  flex:0 0 290px;
+}
+
+.buttons{
+  height: 60px;
+  margin-left: 190px;
+}
+.buttons1{
+  height: 50px;
+  margin-left: 170px;
+}
+.buttons2{
+  height: 50px;
+  margin-left: 70px;
+}
